@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    margin: 8px;
+    background-color: transparent;
+    color: blue;
+    border: none;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  .button:active {
+    transform: translateY(1px);
+  }
+  
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.label {
+  margin-left: 8px;
+}
+
+.panelList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.panelTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.component {
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counterValue {
+  font-size: 24px;
+  color: #00ff00;
+}
+
+.counterSubvalue {
+  font-size: 14px;
+  color: #00ff00;
+}
+
+.report {
+  width: 300px;
+  height: 200px;
+}
